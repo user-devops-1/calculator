@@ -8,7 +8,8 @@ trigger:
 
 pool:
   name: my-windows-vm
-  demands: 
+  demands:
+   - agent.name -equals my-vm
 
 steps:
 - task: NodeTool@0
