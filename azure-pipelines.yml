@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: my-windows-vm
+  name: my-machine-vm
   demands:
    - agent.name -equals my-vm
 
