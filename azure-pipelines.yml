@@ -6,12 +6,10 @@
 trigger:
 - master
 
-# pool:
-#   name: az400-agent-pool
-#   demands:
-#   - agent.name -equals my-machine-vm
-
-pool: windows-2019-vm
+pool:
+  name: az400-agent-pool
+  demands:
+  - agent.name -equals my-machine-vm
 
 steps:
 - task: NodeTool@0
