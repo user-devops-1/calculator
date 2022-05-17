@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: my-machine-vm
+  name: az400-agent-pool
   demands:
-   - agent.name -equals my-vm
+  - agent.name -equals my-machine-vm
 
 steps:
 - task: NodeTool@0
