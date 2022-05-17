@@ -11,7 +11,7 @@ trigger:
 #   demands:
 #   - agent.name -equals my-machine-vm
 
-pool: window-2019-vm
+pool: windows-2019-vm
 
 steps:
 - task: NodeTool@0
